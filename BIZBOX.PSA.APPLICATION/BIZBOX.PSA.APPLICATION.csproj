@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BIZBOX.PSA.DOMAIN\BIZBOX.PSA.DOMAIN.csproj" />
+    <ProjectReference Include="..\BIZBOX.PSA.PERSISTENCE\BIZBOX.PSA.PERSISTENCE.csproj" />
+    <ProjectReference Include="..\BIZBOX.PSA.SERVICES\BIZBOX.PSA.SERVICES.csproj" />
+  </ItemGroup>
+
+</Project>

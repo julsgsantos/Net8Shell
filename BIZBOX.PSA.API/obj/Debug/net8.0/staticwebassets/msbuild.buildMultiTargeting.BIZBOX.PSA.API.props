@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BIZBOX.PSA.API.props" />
+</Project>
